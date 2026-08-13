@@ -1,0 +1,39 @@
+.env
+*.key
+credentials.json
+
+# Данные
+data/*.jsonl
+data/*.json
+data/*.csv
+data/*.xlsx
+
+# Кэш
+cache/
+*.npy
+*.fingerprint
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Виртуальное окружение
+venv/
+env/
+.venv/
+
+# Модели (могут быть огромными)
+*.pt
+*.bin
+*.safetensors
+models/
