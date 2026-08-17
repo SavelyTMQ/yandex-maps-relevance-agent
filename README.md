@@ -78,7 +78,7 @@ python -m baseline.run
 ├── utils.py            # Общие функции (метрики, эмбеддинги)
 ├── agent/              # Агент на LangGraph + GigaChat
 │   ├── tools.py        # Инструменты (web_search, fetch, similar)
-│   ├── prompts.py     # Системный промпт
+│   ├── prompts.py      # Системный промпт
 │   ├── graph.py       # LangGraph
 │   └── run.py         # Точка входа
 ├── baseline/           # Baseline на Qwen2.5-3B
