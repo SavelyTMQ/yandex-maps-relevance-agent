@@ -77,7 +77,7 @@ python -m baseline.run
 ├── config.py           # Настройки
 ├── utils.py            # Общие функции (метрики, эмбеддинги)
 ├── agent/              # Агент на LangGraph + GigaChat
-│   ├── tools.py       # Инструменты (web_search, fetch, similar)
+│   ├── tools.py        # Инструменты (web_search, fetch, similar)
 │   ├── prompts.py     # Системный промпт
 │   ├── graph.py       # LangGraph
 │   └── run.py         # Точка входа
